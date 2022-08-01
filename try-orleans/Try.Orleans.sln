@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Try.Orleans.GrainInterfaces", "Try.Orleans.GrainInterfaces\Try.Orleans.GrainInterfaces.csproj", "{623896D5-AD69-4CD7-A4C4-2D7366B37099}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Try.Orleans.GrainClasses", "Try.Orleans.GrainClasses\Try.Orleans.GrainClasses.csproj", "{7CB5ECD1-6823-40A1-8F40-E68027ABE300}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Try.Orleans.Host", "Try.Orleans.Host\Try.Orleans.Host.csproj", "{79B30160-95CE-40F3-9AB2-D2B31C461535}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Try.Orleans.Client", "Try.Orleans.Client\Try.Orleans.Client.csproj", "{008F329B-079F-497D-893C-7CE30FE0C144}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{623896D5-AD69-4CD7-A4C4-2D7366B37099}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{623896D5-AD69-4CD7-A4C4-2D7366B37099}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{623896D5-AD69-4CD7-A4C4-2D7366B37099}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{623896D5-AD69-4CD7-A4C4-2D7366B37099}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CB5ECD1-6823-40A1-8F40-E68027ABE300}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CB5ECD1-6823-40A1-8F40-E68027ABE300}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CB5ECD1-6823-40A1-8F40-E68027ABE300}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CB5ECD1-6823-40A1-8F40-E68027ABE300}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79B30160-95CE-40F3-9AB2-D2B31C461535}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79B30160-95CE-40F3-9AB2-D2B31C461535}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79B30160-95CE-40F3-9AB2-D2B31C461535}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79B30160-95CE-40F3-9AB2-D2B31C461535}.Release|Any CPU.Build.0 = Release|Any CPU
+		{008F329B-079F-497D-893C-7CE30FE0C144}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{008F329B-079F-497D-893C-7CE30FE0C144}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{008F329B-079F-497D-893C-7CE30FE0C144}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{008F329B-079F-497D-893C-7CE30FE0C144}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
