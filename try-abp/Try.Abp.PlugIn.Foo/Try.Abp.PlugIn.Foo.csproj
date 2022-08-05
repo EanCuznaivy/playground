@@ -1,13 +1,13 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-<PropertyGroup>
+    <PropertyGroup>
         <TargetFramework>net6.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
-<ItemGroup>
-  <ProjectReference Include="..\Try.Abp.PlugIn.Core\Try.Abp.PlugIn.Core.csproj" />
-</ItemGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\Try.Abp.PlugIn.Core\Try.Abp.PlugIn.Core.csproj" />
+    </ItemGroup>
 
 </Project>

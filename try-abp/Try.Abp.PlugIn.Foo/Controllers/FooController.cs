@@ -3,10 +3,10 @@ using Microsoft.AspNetCore.Mvc;
 namespace Try.Abp.Plugin.Foo;
 
 [ApiController]
-[Route("foo")]
+[Route("[controller]")]
 public class FooController : ControllerBase
 {
-    [HttpGet(Name = "")]
+    [HttpGet(Name = "foo")]
     public ActionResult<string> Get()
     {
         return "Foo";

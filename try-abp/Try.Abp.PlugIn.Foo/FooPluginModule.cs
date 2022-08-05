@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using Microsoft.AspNetCore.Mvc.ApplicationParts;
+using Microsoft.Extensions.DependencyInjection;
 using Try.Abp.PlugIn.Core;
 using Volo.Abp.Autofac;
 using Volo.Abp.Modularity;
@@ -14,5 +15,6 @@ public class FooPluginModule : AbpModule
     {
         var services = context.Services;
         services.AddTransient<IPlugIn, FooPlugIn>();
+        services.AddControllers().PartManager.ApplicationParts.Add(new AssemblyPart(typeof(FooPluginModule).Assembly));
     }
 }

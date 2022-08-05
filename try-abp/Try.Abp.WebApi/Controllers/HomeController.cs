@@ -1,12 +1,10 @@
-using System.Collections.Generic;
-using System.Linq;
 using Microsoft.AspNetCore.Mvc;
 using Try.Abp.PlugIn.Core;
 
 namespace Try.Abp.WebApi.Controllers;
 
 [ApiController]
-[Route("home")]
+[Route("[controller]")]
 public class HomeController : ControllerBase
 {
     private readonly IEnumerable<IPlugIn> _plugIns;
@@ -16,9 +14,9 @@ public class HomeController : ControllerBase
         _plugIns = plugIns;
     }
 
-    [HttpGet(Name = "")]
+    [HttpGet(Name = "home")]
     public ActionResult<string> Get()
     {
-        return _plugIns.Count().ToString();
+        return $"plug-ins: {_plugIns.Aggregate(string.Empty, (current, plugIn) => current + $"{plugIn.Display()} ")}";
     }
 }

@@ -4,5 +4,8 @@ namespace Try.Abp.Plugin.Bar;
 
 public class BarPlugIn : IPlugIn
 {
-    
+    public string Display()
+    {
+        return "bar";
+    }
 }
