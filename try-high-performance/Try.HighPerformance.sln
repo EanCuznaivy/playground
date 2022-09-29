@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Try.HighPerformance", "Try.HighPerformance\Try.HighPerformance.csproj", "{B96FCB37-7D07-4166-AC1C-07093370A9C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "benchmarks", "benchmarks", "{EE564BE3-9086-4C55-B3A1-5F07D37F3084}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmark.Dynamic", "benchmarks\Benchmark.Dynamic\Benchmark.Dynamic.csproj", "{3E503A44-FE4D-4FDC-B2D3-74D9D7C991F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmark.StackAndHeap", "benchmarks\Benchmark.StackAndHeap\Benchmark.StackAndHeap.csproj", "{FD2EB46A-11E7-4787-8076-A41400197414}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B96FCB37-7D07-4166-AC1C-07093370A9C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B96FCB37-7D07-4166-AC1C-07093370A9C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B96FCB37-7D07-4166-AC1C-07093370A9C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B96FCB37-7D07-4166-AC1C-07093370A9C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E503A44-FE4D-4FDC-B2D3-74D9D7C991F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E503A44-FE4D-4FDC-B2D3-74D9D7C991F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E503A44-FE4D-4FDC-B2D3-74D9D7C991F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E503A44-FE4D-4FDC-B2D3-74D9D7C991F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD2EB46A-11E7-4787-8076-A41400197414}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD2EB46A-11E7-4787-8076-A41400197414}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD2EB46A-11E7-4787-8076-A41400197414}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD2EB46A-11E7-4787-8076-A41400197414}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3E503A44-FE4D-4FDC-B2D3-74D9D7C991F6} = {EE564BE3-9086-4C55-B3A1-5F07D37F3084}
+		{FD2EB46A-11E7-4787-8076-A41400197414} = {EE564BE3-9086-4C55-B3A1-5F07D37F3084}
+	EndGlobalSection
+EndGlobal

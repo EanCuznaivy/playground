@@ -1,12 +1,18 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Try.Orleans.GrainInterfaces", "Try.Orleans.GrainInterfaces\Try.Orleans.GrainInterfaces.csproj", "{623896D5-AD69-4CD7-A4C4-2D7366B37099}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Try.Orleans.GrainInterfaces", "src\Try.Orleans.GrainInterfaces\Try.Orleans.GrainInterfaces.csproj", "{623896D5-AD69-4CD7-A4C4-2D7366B37099}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Try.Orleans.GrainClasses", "Try.Orleans.GrainClasses\Try.Orleans.GrainClasses.csproj", "{7CB5ECD1-6823-40A1-8F40-E68027ABE300}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Try.Orleans.Grains", "src\Try.Orleans.Grains\Try.Orleans.Grains.csproj", "{7CB5ECD1-6823-40A1-8F40-E68027ABE300}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Try.Orleans.Host", "Try.Orleans.Host\Try.Orleans.Host.csproj", "{79B30160-95CE-40F3-9AB2-D2B31C461535}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Try.Orleans.Silo", "src\Try.Orleans.Silo\Try.Orleans.Silo.csproj", "{79B30160-95CE-40F3-9AB2-D2B31C461535}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Try.Orleans.Client", "Try.Orleans.Client\Try.Orleans.Client.csproj", "{008F329B-079F-497D-893C-7CE30FE0C144}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Try.Orleans.Client", "src\Try.Orleans.Client\Try.Orleans.Client.csproj", "{008F329B-079F-497D-893C-7CE30FE0C144}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B851459D-B4B7-408A-82C3-F982BAD88B6C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{E8B73ACF-F0A7-4F4F-A5BA-4BAD6E52D54E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Try.Orleans.Tests", "test\Try.Orleans.Tests\Try.Orleans.Tests.csproj", "{EA7CEE89-4DBE-4DDD-9A7F-716ACE659145}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,5 +36,16 @@ Global
 		{008F329B-079F-497D-893C-7CE30FE0C144}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{008F329B-079F-497D-893C-7CE30FE0C144}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{008F329B-079F-497D-893C-7CE30FE0C144}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA7CEE89-4DBE-4DDD-9A7F-716ACE659145}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA7CEE89-4DBE-4DDD-9A7F-716ACE659145}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA7CEE89-4DBE-4DDD-9A7F-716ACE659145}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA7CEE89-4DBE-4DDD-9A7F-716ACE659145}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{008F329B-079F-497D-893C-7CE30FE0C144} = {B851459D-B4B7-408A-82C3-F982BAD88B6C}
+		{623896D5-AD69-4CD7-A4C4-2D7366B37099} = {B851459D-B4B7-408A-82C3-F982BAD88B6C}
+		{7CB5ECD1-6823-40A1-8F40-E68027ABE300} = {B851459D-B4B7-408A-82C3-F982BAD88B6C}
+		{79B30160-95CE-40F3-9AB2-D2B31C461535} = {B851459D-B4B7-408A-82C3-F982BAD88B6C}
+		{EA7CEE89-4DBE-4DDD-9A7F-716ACE659145} = {E8B73ACF-F0A7-4F4F-A5BA-4BAD6E52D54E}
 	EndGlobalSection
 EndGlobal

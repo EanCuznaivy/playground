@@ -1,0 +1,11 @@
+name: hello-world-debug
+
+extensions:
+  - name: dapr
+    log-level: debug
+
+services:
+  - name: a
+    project: Try.Dapr.Microservice.A/Try.Dapr.Microservice.A.csproj
+  - name: b
+    project: Try.Dapr.Microservice.B/Try.Dapr.Microservice.B.csproj

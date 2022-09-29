@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Try.Roslyn.SourceGenerator", "Try.Roslyn.SourceGenerator\Try.Roslyn.SourceGenerator.csproj", "{1802CBFC-131B-4311-8E8F-48B566805885}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Try.Roslyn.SourceGenerator.HelloFrom", "Try.Roslyn.SourceGenerator.HelloFrom\Try.Roslyn.SourceGenerator.HelloFrom.csproj", "{E410821D-8FF6-4C36-BCF1-670E54573AFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Try.Roslyn.Delegate", "Try.Roslyn.Delegate\Try.Roslyn.Delegate.csproj", "{7A09CB32-C3ED-41CC-9D47-C23F9C38AAFD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1802CBFC-131B-4311-8E8F-48B566805885}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1802CBFC-131B-4311-8E8F-48B566805885}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1802CBFC-131B-4311-8E8F-48B566805885}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1802CBFC-131B-4311-8E8F-48B566805885}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E410821D-8FF6-4C36-BCF1-670E54573AFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E410821D-8FF6-4C36-BCF1-670E54573AFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E410821D-8FF6-4C36-BCF1-670E54573AFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E410821D-8FF6-4C36-BCF1-670E54573AFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A09CB32-C3ED-41CC-9D47-C23F9C38AAFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A09CB32-C3ED-41CC-9D47-C23F9C38AAFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A09CB32-C3ED-41CC-9D47-C23F9C38AAFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A09CB32-C3ED-41CC-9D47-C23F9C38AAFD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
