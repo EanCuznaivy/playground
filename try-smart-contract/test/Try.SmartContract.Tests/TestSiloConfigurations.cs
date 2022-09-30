@@ -6,15 +6,15 @@ using Try.SmartContract.Grains;
 
 namespace Try.SmartContract.Tests;
 
-public class TestSiloConfigurations : ISiloBuilderConfigurator
+public class TestSiloConfigurations : ISiloConfigurator
 {
-    public void Configure(ISiloHostBuilder hostBuilder)
+    public void Configure(ISiloBuilder siloBuilder)
     {
-        hostBuilder.ConfigureServices(services =>
+        siloBuilder.ConfigureServices(services =>
         {
-            // Services that need to talk to grains can be placed here
             services.AddSingleton<ISmartContractGrain, SmartContractGrain>();
-            services.AddFaultInjectionMemoryStorage("Executive");
         });
+        siloBuilder.AddMemoryGrainStorageAsDefault();
+        siloBuilder.AddMemoryGrainStorage("Executive");
     }
 }
