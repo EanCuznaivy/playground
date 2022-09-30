@@ -20,6 +20,7 @@ var host = new SiloHostBuilder()
     .UseLinuxEnvironmentStatistics()
     .AddMemoryGrainStorage("PubSubStore")
     .AddSimpleMessageStreamProvider("SMSProvider")
+    .UseInMemoryReminderService()
     .Build();
 
 await host.StartAsync();
